@@ -13,21 +13,15 @@ namespace ConsoleApp1
             string filePath = "recept.txt";
             StreamReader sr = new StreamReader(filePath, Encoding.UTF8);
 
-            while (Flag)
+            while (sr.Peek() > -1)
             {
-                if (sr.Peek() > -1)
-                {
                     int price =int.Parse(sr.ReadLine());
-                    Console.WriteLine(price + "円");
+                    Console.WriteLine(price.ToString() + "円");
                     sum += price;
-                }
-                else
-                {
-                    Console.WriteLine("合計" + sum + "円");
-                    Flag = false;
-                }
           
-;            }
+             }
+
+            Console.WriteLine("合計" + sum + "円");
 
             sr.Close();
 
