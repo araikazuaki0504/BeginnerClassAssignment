@@ -21,9 +21,9 @@ namespace ConsoleApp1
           
              }
 
-            Console.WriteLine("合計" + sum.ToString() + "円");
-
             sr.Close();
+
+            Console.WriteLine("合計" + sum.ToString() + "円");
 
             Console.ReadLine();
 
