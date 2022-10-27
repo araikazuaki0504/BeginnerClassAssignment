@@ -15,7 +15,7 @@ namespace ConsoleApp1
 
             foreach(int num in numbers)
             {
-                sw.WriteLine(num);
+                sw.WriteLine(num.ToString());
             }
 
             sw.Close();
