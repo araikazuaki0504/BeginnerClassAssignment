@@ -5,20 +5,20 @@ using System.Text;
 namespace ConsoleApp1
 {
     class Program
-    {
+    {   
         static void Main(string[] args)
         {
-            uint Sum = 0;
+            int Sum = 0;
+            StreamReader SR = new StreamReader(@"C:\Users\Public\Documents\numbers.txt.txt");
 
-            Console.WriteLine("大人の人数は何人ですか？");
-            Sum += uint.Parse(Console.ReadLine()) * 1800;
+            while(-1 < SR.Peek())
+            {
+                Sum += int.Parse(SR.ReadLine());
+            }
 
-            Console.WriteLine("子供の人数は何人ですか？");
+            SR.Close();
 
-            Sum += uint.Parse(Console.ReadLine()) * 900;
-
-            Console.WriteLine("料金は\n" + Sum.ToString() + "\nになります");
-            
+            Console.WriteLine("合計は、\n" + Sum.ToString() + "\nです。");
 
             Console.ReadLine();
 
