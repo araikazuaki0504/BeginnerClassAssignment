@@ -9,16 +9,21 @@ namespace ConsoleApp1
         
         static void Main(string[] args)
         {
-            uint Sum = 0, person_Num = 0, discount_Num = 0;
+            int Sum = 0, person_Num = 0, discount_Num = 0;
 
             Console.WriteLine("大人の人数は何人ですか？");
-            person_Num = uint.Parse(Console.ReadLine());
+            person_Num = int.Parse(Console.ReadLine());
             discount_Num = person_Num / 2;
             Sum += 1500 * person_Num;
 
             Console.WriteLine("子供の人数は何人ですか？");
-            person_Num = uint.Parse(Console.ReadLine());
-            Sum += 750 * (person_Num - discount_Num);
+            person_Num = int.Parse(Console.ReadLine());
+
+            if((person_Num - discount_Num) > 0)
+            {
+                Sum += 750 * (person_Num - discount_Num);
+            }
+
 
             Console.WriteLine("料金は\n" + Sum.ToString() + "\nなります。");
 
