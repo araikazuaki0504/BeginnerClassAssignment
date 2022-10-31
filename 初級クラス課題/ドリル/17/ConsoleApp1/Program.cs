@@ -19,9 +19,11 @@ namespace ConsoleApp1
             Console.WriteLine("子供の人数は何人ですか？");
             person_Num = int.Parse(Console.ReadLine());
 
-            if((person_Num - discount_Num) > 0)
+            person_Num -= discount_Num;
+
+            if(person_Num > 0)
             {
-                Sum += 750 * (person_Num - discount_Num);
+                Sum += 750 * person_Num;
             }
 
 

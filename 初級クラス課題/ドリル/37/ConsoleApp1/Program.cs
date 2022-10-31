@@ -17,7 +17,7 @@ namespace ConsoleApp1
                 Sum += points[i];
             }
 
-            float Ave = (float)(Sum) / points.Length;
+            double Ave = (double)(Sum) / points.Length;
 
             Console.WriteLine("平均値は\n" + Ave.ToString() + "\nになります。");
 
