@@ -12,7 +12,7 @@ namespace ConsoleApp1
 
             double Price = double.Parse(Console.ReadLine()) * 1.08;
 
-            Console.WriteLine("税込み" + (int)(Price) + "円になります。");
+            Console.WriteLine("税込み" + ((int)(Price)).ToString() + "円になります。");
 
             Console.ReadLine();
 
