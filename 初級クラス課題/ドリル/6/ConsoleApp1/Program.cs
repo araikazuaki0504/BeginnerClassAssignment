@@ -17,7 +17,7 @@ namespace ConsoleApp1
             }
             
  
-            Console.WriteLine("掛け算すると、\n" + Sum.ToString());
+            Console.WriteLine("合計は\n" + Sum.ToString());
 
 
             Console.ReadLine();
