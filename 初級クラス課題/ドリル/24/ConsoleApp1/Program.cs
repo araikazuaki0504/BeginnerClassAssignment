@@ -13,7 +13,7 @@ namespace ConsoleApp1
 
             while(i < 10)
             {
-                Console.WriteLine(i * 7);
+                Console.WriteLine((i * 7).ToString());
                 i++;
             }
 

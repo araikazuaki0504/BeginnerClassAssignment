@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
             for (int i = 0; i < 10; i++)
             {
-                SW.WriteLine(Rand.Next(0, 99));
+                SW.WriteLine(Rand.Next(0, 99).ToString());
             }
 
             SW.Close();

@@ -18,7 +18,7 @@ namespace ConsoleApp1
             inputChannel = int.Parse(Console.ReadLine());
 
 
-            for (int i = 0; i < tvProgram.Length/2; i++)
+            for (int i = 0; i < tvProgram.GetLength(0); i++)
             {
                 if(int.Parse(tvProgram[i,0]) == inputChannel)
                 {

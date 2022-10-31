@@ -12,7 +12,7 @@ namespace ConsoleApp1
                                    { "日本テレビ", "バラエティ" }, { "TBS", "ドラマスペシャル" },
                                    { "フジテレビ", "ドラマ" }, { "テレビ朝日", "ニュースバラエティ" }};
 
-            for (int i = 0; i < tvProgram.Length/2; i++)
+            for (int i = 0; i < tvProgram.GetLength(0); i++)
             {
                 Console.WriteLine(tvProgram[i, 0] + "：" + tvProgram[i, 1]);
             }

@@ -12,7 +12,7 @@ namespace ConsoleApp1
 
             for(int i = 1; i <= 10; i++)
             {
-                SW.WriteLine(i);
+                SW.WriteLine(i.ToString());
             }
 
             SW.Close();

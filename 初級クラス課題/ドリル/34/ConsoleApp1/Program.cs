@@ -9,7 +9,9 @@ namespace ConsoleApp1
         
         static void Main(string[] args)
         {
-            int i = 10, j = 0, Sum = 0;
+            int i = 10;
+            int j = 0;
+            int Sum = 0;
 
             while(i > 0)
             {
