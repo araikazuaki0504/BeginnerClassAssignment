@@ -1,0 +1,6 @@
+課題1-1
+変数の型 string 変数名 greetingHello、greetingforAlongTime、name、greetingGoodEvening、greetingHowAreYou
+IF 太郎さん、こんにちは。
+お久しぶりですね。
+IF 太郎さん、こんばんは。
+お元気ですか。
