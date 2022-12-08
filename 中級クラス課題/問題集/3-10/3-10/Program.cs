@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _3_9
+namespace _3_10
 {
     class Program
     {
@@ -9,9 +9,8 @@ namespace _3_9
             int[] Data = { 2, 4, 7, 8, 3, 4, 5, 1, 2, 3, 7, 3, 6, 7, 2, 6, 3, 8, 3, 1, 7, 1, 9, 3, 5, 3, 6, 7, 3, 9 };
 
             int[] Ans = MergeSort(Data);
-            int LastIndex = Data.Length - 1;
 
-            Console.WriteLine(Ans[LastIndex].ToString());
+            Console.WriteLine("最小値は、" + Ans[0].ToString() + "です。");
         }
 
         static int[] MergeSort(int[] Data)
@@ -138,7 +137,7 @@ namespace _3_9
                     return ReturnData;
                 }
             }
-         }
+        }
 
         static int[] DivData(int Init, int Fin, int[] Data)
         {
@@ -152,5 +151,6 @@ namespace _3_9
 
             return SetData;
         }
+
     }
 }
