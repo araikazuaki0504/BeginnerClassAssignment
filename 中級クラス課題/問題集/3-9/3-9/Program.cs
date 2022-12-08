@@ -11,7 +11,7 @@ namespace _3_9
             int[] Ans = MergeSort(Data);
             int LastIndex = Data.Length - 1;
 
-            Console.WriteLine(Ans[LastIndex].ToString());
+            Console.WriteLine("最大値は、" + Ans[LastIndex].ToString() + "です。");
         }
 
         static int[] MergeSort(int[] Data)
