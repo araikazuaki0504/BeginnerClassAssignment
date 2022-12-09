@@ -11,11 +11,11 @@ using System.IO;
 
 namespace _2_12b
 {
-    public partial class Form1 : Form
+    public partial class _2_12b_Form : Form
     {
         private List<string[]> Data = new List<string[]>();
 
-        public Form1()
+        public _2_12b_Form()
         {
             InitializeComponent();
         }
@@ -40,7 +40,7 @@ namespace _2_12b
                 string[] SetData = { ViewSetDate[2].Replace("\"", ""), Address };
                 ListViewItem item = new ListViewItem(SetData);
 
-                this.listView1.Items.Add(item);
+                this.Address_listView.Items.Add(item);
             }
         }
 
@@ -48,9 +48,9 @@ namespace _2_12b
         {
             StreamWriter Writer = new StreamWriter(FilePath, false, Encoding.UTF8);
 
-            for (int i = 0; i < this.listView1.SelectedItems.Count; i++)
+            for (int i = 0; i < this.Address_listView.SelectedItems.Count; i++)
             {
-                int WriterIndex = this.listView1.SelectedIndices[i];
+                int WriterIndex = this.Address_listView.SelectedIndices[i];
                 string[] WriteData = this.Data[WriterIndex];
                 string Address = WriteData[6].Replace("\"", "") + WriteData[7].Replace("\"", "") + WriteData[8].Replace("\"", "");
                 string WriteString = WriteData[2] + "," + "\"" + Address + "\"";
@@ -78,7 +78,7 @@ namespace _2_12b
 
         private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
-            if (this.listView1.SelectedItems.Count == 0)
+            if (this.Address_listView.SelectedItems.Count == 0)
             {
                 MessageBox.Show("保存する住所を選択してください");
             }

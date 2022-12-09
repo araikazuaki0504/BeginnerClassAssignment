@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace _2_9
 {
-    public partial class Form1 : Form
+    public partial class _2_9_Form : Form
     {
-        public Form1()
+        public _2_9_Form()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TimeSpan span = DateTime.Today - this.dateTimePicker1.Value;
+            TimeSpan span = DateTime.Today - this.BrithDay_dateTimePicker.Value;
             MessageBox.Show("あなたが生まれてから" + span.Days.ToString() + "日目です。");
         }
     }

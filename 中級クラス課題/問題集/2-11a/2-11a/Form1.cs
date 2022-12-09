@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace _2_11a
 {
-    public partial class Form1 : Form
+    public partial class _2_11a_Form : Form
     {
         private DateTime timer = DateTime.Parse("00:00");
-        public Form1()
+        public _2_11a_Form()
         {
             InitializeComponent();
         }
@@ -32,13 +32,13 @@ namespace _2_11a
         {
             this.timer = this.timer.AddSeconds(1.0);
             
-            if (this.label1.Text == "59:59")
+            if (this.Time_label.Text == "59:59")
             {
-                this.label1.Text = "00:00";
+                this.Time_label.Text = "00:00";
             }
             else
             {
-                this.label1.Text = this.timer.ToString("mm:ss");
+                this.Time_label.Text = this.timer.ToString("mm:ss");
             }
             
         }
@@ -46,7 +46,7 @@ namespace _2_11a
         private void button3_Click(object sender, EventArgs e)
         {
             this.timer1.Enabled = false;
-            this.label1.Text = "00:00";
+            this.Time_label.Text = "00:00";
             this.timer = DateTime.Parse("00:00");
         }
     }

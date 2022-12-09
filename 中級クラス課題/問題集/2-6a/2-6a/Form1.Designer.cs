@@ -1,7 +1,7 @@
 ﻿
 namespace _2_6a
 {
-    partial class Form1
+    partial class _2_6_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,46 +29,46 @@ namespace _2_6a
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Name_listBox = new System.Windows.Forms.ListBox();
+            this.Display_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listBox1
+            // Name_listBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(234, 199);
-            this.listBox1.TabIndex = 0;
+            this.Name_listBox.FormattingEnabled = true;
+            this.Name_listBox.ItemHeight = 15;
+            this.Name_listBox.Location = new System.Drawing.Point(12, 12);
+            this.Name_listBox.Name = "Name_listBox";
+            this.Name_listBox.Size = new System.Drawing.Size(234, 199);
+            this.Name_listBox.TabIndex = 0;
             // 
-            // button1
+            // Display_button
             // 
-            this.button1.Location = new System.Drawing.Point(85, 217);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 35);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "表示";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Display_button.Location = new System.Drawing.Point(85, 217);
+            this.Display_button.Name = "Display_button";
+            this.Display_button.Size = new System.Drawing.Size(86, 35);
+            this.Display_button.TabIndex = 1;
+            this.Display_button.Text = "表示";
+            this.Display_button.UseVisualStyleBackColor = true;
+            this.Display_button.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // _2_6_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(258, 264);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.Display_button);
+            this.Controls.Add(this.Name_listBox);
+            this.Name = "_2_6_Form";
+            this.Text = "2-6";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox Name_listBox;
+        private System.Windows.Forms.Button Display_button;
     }
 }
 

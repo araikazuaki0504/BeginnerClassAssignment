@@ -11,10 +11,10 @@ using System.IO;
 
 namespace _2_12a
 {
-    public partial class Form1 : Form
+    public partial class _2_12a_Form : Form
     {
         private List<string[]> Data = new List<string[]>();
-        public Form1()
+        public _2_12a_Form()
         {
             InitializeComponent();
         }
@@ -39,7 +39,7 @@ namespace _2_12a
                 string[] SetData = { ViewSetDate[2].Replace("\"", ""), Address };
                 ListViewItem item = new ListViewItem(SetData);
 
-                this.listView1.Items.Add(item);
+                this.Address_listView.Items.Add(item);
             }
         }
 
@@ -69,7 +69,7 @@ namespace _2_12a
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.listView1.Items.Clear();
+            this.Address_listView.Items.Clear();
             this.openFileDialog1.ShowDialog();
         }
 

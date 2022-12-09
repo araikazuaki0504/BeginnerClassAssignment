@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace _2_8
 {
-    public partial class Form1 : Form
+    public partial class _2_8_Form : Form
     {
         int money = 10000;
 
-        public Form1()
+        public _2_8_Form()
         {
             InitializeComponent();
-            this.textBox1.Text = money.ToString();
+            this.Money_textBox.Text = money.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.textBox2.Enabled = true;
-            this.button1.Enabled = true;
-            this.comboBox1.Enabled = true;
-            this.button3.Enabled = true;
+            this.BetMoney_textBox.Enabled = true;
+            this.Daice_button.Enabled = true;
+            this.OddOrEven_comboBox.Enabled = true;
+            this.Reset_button.Enabled = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,20 +41,20 @@ namespace _2_8
                 RandomNum[2] += RandomNum[i];
             }
             
-            if (RandomNum[2] % 2 == 0 && this.comboBox1.SelectedItem.ToString() == "偶数")
+            if (RandomNum[2] % 2 == 0 && this.OddOrEven_comboBox.SelectedItem.ToString() == "偶数")
             {
                 outPutString = RandomNum[0].ToString() + "-" + RandomNum[2] + "の偶数" + Environment.NewLine + "勝ちです";
-                this.money += int.Parse(this.textBox2.Text);
+                this.money += int.Parse(this.BetMoney_textBox.Text);
             }
-            else if (RandomNum[2] % 2 == 1 && this.comboBox1.SelectedItem.ToString() == "奇数")
+            else if (RandomNum[2] % 2 == 1 && this.OddOrEven_comboBox.SelectedItem.ToString() == "奇数")
             {
                 outPutString = RandomNum[0].ToString() + "-" + RandomNum[2] + "の奇数" + Environment.NewLine + "勝ちです";
-                this.money += int.Parse(this.textBox2.Text);
+                this.money += int.Parse(this.BetMoney_textBox.Text);
             }
             else
             {
-                outPutString = RandomNum[0].ToString() + "-" + RandomNum[2] + "の" + this.comboBox1.SelectedItem.ToString() + Environment.NewLine + "負けです";
-                this.money -= int.Parse(this.textBox2.Text);
+                outPutString = RandomNum[0].ToString() + "-" + RandomNum[2] + "の" + this.OddOrEven_comboBox.SelectedItem.ToString() + Environment.NewLine + "負けです";
+                this.money -= int.Parse(this.BetMoney_textBox.Text);
             }
 
             if (this.money <= 0)
@@ -62,17 +62,17 @@ namespace _2_8
                 MessageBox.Show("ゲームオーバー");
             }
 
-            this.label5.Text = outPutString;
-            this.textBox1.Text = money.ToString();
+            this.Result_label.Text = outPutString;
+            this.Money_textBox.Text = money.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.money = 10000;
-            this.textBox2.Enabled = false;
-            this.button1.Enabled = false;
-            this.comboBox1.Enabled = false;
-            this.button3.Enabled = false;
+            this.BetMoney_textBox.Enabled = false;
+            this.Daice_button.Enabled = false;
+            this.OddOrEven_comboBox.Enabled = false;
+            this.Reset_button.Enabled = false;
         }
 
         private void button4_Click(object sender, EventArgs e)

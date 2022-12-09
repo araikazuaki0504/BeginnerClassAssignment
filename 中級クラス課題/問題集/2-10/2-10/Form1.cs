@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _2_10
 {
-    public partial class Form1 : Form
+    public partial class _2_10_Form : Form
     {
-        public Form1()
+        public _2_10_Form()
         {
             InitializeComponent();
         }
@@ -49,7 +49,7 @@ namespace _2_10
                     break;
             }
 
-            TimeSpan timeSpan =  DateTime.Today - this.dateTimePicker1.Value;
+            TimeSpan timeSpan =  DateTime.Today - this.BirthDay_dateTimePicker.Value;
             int WhichDayIndex = (timeSpan.Days + diffMonday) % 7;
 
             MessageBox.Show("あなたは" + EngToJap[WhichDayIndex] + "生まれです。");

@@ -1,7 +1,7 @@
 ﻿
 namespace _2_5
 {
-    partial class Form1
+    partial class _2_5_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,33 +29,33 @@ namespace _2_5
         /// </summary>
         private void InitializeComponent()
         {
-            this.name = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.Ask_label = new System.Windows.Forms.Label();
+            this.Name = new System.Windows.Forms.Label();
             this.day = new System.Windows.Forms.Label();
             this.month = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Name_textBox = new System.Windows.Forms.TextBox();
+            this.Month_textBox = new System.Windows.Forms.TextBox();
+            this.Day_textBox = new System.Windows.Forms.TextBox();
             this.display = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // name
+            // Ask_label
             // 
-            this.name.Location = new System.Drawing.Point(12, 21);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(188, 23);
-            this.name.TabIndex = 0;
-            this.name.Text = "氏名、誕生日を入力してください";
-            this.name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ask_label.Location = new System.Drawing.Point(12, 21);
+            this.Ask_label.Name = "Ask_label";
+            this.Ask_label.Size = new System.Drawing.Size(188, 23);
+            this.Ask_label.TabIndex = 0;
+            this.Ask_label.Text = "氏名、誕生日を入力してください";
+            this.Ask_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // Name
             // 
-            this.label2.Location = new System.Drawing.Point(12, 57);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "氏名";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Name.Location = new System.Drawing.Point(12, 57);
+            this.Name.Name = "Name";
+            this.Name.Size = new System.Drawing.Size(55, 23);
+            this.Name.TabIndex = 1;
+            this.Name.Text = "氏名";
+            this.Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // day
             // 
@@ -75,26 +75,26 @@ namespace _2_5
             this.month.Text = "月";
             this.month.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // Name_textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 4;
+            this.Name_textBox.Location = new System.Drawing.Point(79, 57);
+            this.Name_textBox.Name = "Name_textBox";
+            this.Name_textBox.Size = new System.Drawing.Size(100, 23);
+            this.Name_textBox.TabIndex = 4;
             // 
-            // textBox2
+            // Month_textBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(79, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 5;
+            this.Month_textBox.Location = new System.Drawing.Point(79, 99);
+            this.Month_textBox.Name = "Month_textBox";
+            this.Month_textBox.Size = new System.Drawing.Size(100, 23);
+            this.Month_textBox.TabIndex = 5;
             // 
-            // textBox3
+            // Day_textBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(79, 137);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 6;
+            this.Day_textBox.Location = new System.Drawing.Point(79, 137);
+            this.Day_textBox.Name = "Day_textBox";
+            this.Day_textBox.Size = new System.Drawing.Size(100, 23);
+            this.Day_textBox.TabIndex = 6;
             // 
             // display
             // 
@@ -106,21 +106,21 @@ namespace _2_5
             this.display.UseVisualStyleBackColor = true;
             this.display.Click += new System.EventHandler(this.display_Click);
             // 
-            // Form1
+            // _2_5_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(199, 214);
             this.Controls.Add(this.display);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Day_textBox);
+            this.Controls.Add(this.Month_textBox);
+            this.Controls.Add(this.Name_textBox);
             this.Controls.Add(this.month);
             this.Controls.Add(this.day);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.name);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.Name);
+            this.Controls.Add(this.Ask_label);
+            this.Name = "_2_5_Form";
+            this.Text = "2-5";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,13 +128,13 @@ namespace _2_5
 
         #endregion
 
-        private System.Windows.Forms.Label name;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Ask_label;
+        private System.Windows.Forms.Label Name;
         private System.Windows.Forms.Label day;
         private System.Windows.Forms.Label month;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox Name_textBox;
+        private System.Windows.Forms.TextBox Month_textBox;
+        private System.Windows.Forms.TextBox Day_textBox;
         private System.Windows.Forms.Button display;
     }
 }

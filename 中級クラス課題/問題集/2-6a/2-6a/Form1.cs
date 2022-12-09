@@ -7,16 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Collections.Generic;
 using System.IO;
 
 
 namespace _2_6a
 {
-    public partial class Form1 : Form
+    public partial class _2_6_Form : Form
     {
         private string filePath = @"D:\Text\names.txt";
-        public Form1()
+        public _2_6_Form()
         {
             InitializeComponent();
         }
@@ -26,7 +25,7 @@ namespace _2_6a
             StreamReader SR = new StreamReader(filePath, Encoding.UTF8);
             List<string> buff = new List<string>();
 
-            this.listBox1.Items.Clear();
+            this.Name_listBox.Items.Clear();
  
             while (-1 < SR.Peek())
             {
@@ -37,7 +36,7 @@ namespace _2_6a
 
            foreach (string output in buff)
             {
-                this.listBox1.Items.Add(output);
+                this.Name_listBox.Items.Add(output);
             }
         }
     }

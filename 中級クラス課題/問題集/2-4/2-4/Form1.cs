@@ -11,12 +11,12 @@ using System.IO;
 
 namespace _2_4
 {
-    public partial class Form1 : Form
+    public partial class _2_4_Form : Form
     {
         private List<string> sarcedLot = new List<string>();
         private string filePath = @"D:\Text\Test.txt";
 
-        public Form1()
+        public _2_4_Form()
         {
             InitializeComponent();
             readDate();
@@ -38,7 +38,7 @@ namespace _2_4
             Random Rand = new Random();
             int index = Rand.Next(12);
 
-            MessageBox.Show(this.textBox1.Text + "さんの今日の運勢は..." + Environment.NewLine + sarcedLot[index]);
+            MessageBox.Show(this.Name_textBox.Text + "さんの今日の運勢は..." + Environment.NewLine + sarcedLot[index]);
         }
     }
 }

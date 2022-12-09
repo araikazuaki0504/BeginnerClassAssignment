@@ -42,14 +42,14 @@ namespace _2_3
             this.display.UseVisualStyleBackColor = true;
             this.display.Click += new System.EventHandler(this.button_Click);
             // 
-            // Form1
+            // _2_3_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(226, 116);
             this.Controls.Add(this.display);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "_2_3_Form";
+            this.Text = "2-3";
             this.ResumeLayout(false);
 
         }

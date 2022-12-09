@@ -60,7 +60,7 @@ namespace _2_2b
             this.pushBotton.UseVisualStyleBackColor = true;
             this.pushBotton.Click += new System.EventHandler(this.pushBotton_Click);
             // 
-            // Form1
+            // _2_2b_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,8 +68,8 @@ namespace _2_2b
             this.Controls.Add(this.pushBotton);
             this.Controls.Add(this.Name_textBox);
             this.Controls.Add(this.Ask_label);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "_2_2b_Form";
+            this.Text = "2-2b";
             this.ResumeLayout(false);
             this.PerformLayout();
 

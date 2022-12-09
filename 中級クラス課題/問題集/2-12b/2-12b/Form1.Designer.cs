@@ -1,7 +1,7 @@
 ﻿
 namespace _2_12b
 {
-    partial class Form1
+    partial class _2_12b_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,49 +29,49 @@ namespace _2_12b
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.Read_button = new System.Windows.Forms.Button();
+            this.Write_button = new System.Windows.Forms.Button();
+            this.Address_listView = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
-            // button1
+            // Read_button
             // 
-            this.button1.Location = new System.Drawing.Point(151, 355);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "読み込み";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Read_button.Location = new System.Drawing.Point(151, 355);
+            this.Read_button.Name = "Read_button";
+            this.Read_button.Size = new System.Drawing.Size(75, 23);
+            this.Read_button.TabIndex = 0;
+            this.Read_button.Text = "読み込み";
+            this.Read_button.UseVisualStyleBackColor = true;
+            this.Read_button.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // Write_button
             // 
-            this.button2.Location = new System.Drawing.Point(243, 355);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "書き込み";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Write_button.Location = new System.Drawing.Point(243, 355);
+            this.Write_button.Name = "Write_button";
+            this.Write_button.Size = new System.Drawing.Size(75, 23);
+            this.Write_button.TabIndex = 1;
+            this.Write_button.Text = "書き込み";
+            this.Write_button.UseVisualStyleBackColor = true;
+            this.Write_button.Click += new System.EventHandler(this.button2_Click);
             // 
-            // listView1
+            // Address_listView
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.Address_listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
-            this.listView1.FullRowSelect = true;
-            this.listView1.GridLines = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 12);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(306, 337);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.Address_listView.FullRowSelect = true;
+            this.Address_listView.GridLines = true;
+            this.Address_listView.HideSelection = false;
+            this.Address_listView.Location = new System.Drawing.Point(12, 12);
+            this.Address_listView.Name = "Address_listView";
+            this.Address_listView.Size = new System.Drawing.Size(306, 337);
+            this.Address_listView.TabIndex = 2;
+            this.Address_listView.UseCompatibleStateImageBehavior = false;
+            this.Address_listView.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -92,25 +92,25 @@ namespace _2_12b
             // 
             this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
             // 
-            // Form1
+            // _2_12b_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(333, 389);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.Address_listView);
+            this.Controls.Add(this.Write_button);
+            this.Controls.Add(this.Read_button);
+            this.Name = "_2_12b_Form";
+            this.Text = "2_12b";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button Read_button;
+        private System.Windows.Forms.Button Write_button;
+        private System.Windows.Forms.ListView Address_listView;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;

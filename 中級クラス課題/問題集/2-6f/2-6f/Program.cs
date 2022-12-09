@@ -17,7 +17,7 @@ namespace _2_6f
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new _2_6f_Form());
         }
     }
 }

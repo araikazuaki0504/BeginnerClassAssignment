@@ -43,14 +43,14 @@ namespace _2_2
             this.Display_button.UseVisualStyleBackColor = true;
             this.Display_button.Click += new System.EventHandler(this.Display_button_Click);
             // 
-            // Form1
+            // _2_2_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(338, 145);
             this.Controls.Add(this.Display_button);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "_2_2_Form";
+            this.Text = "2-2";
             this.ResumeLayout(false);
 
         }

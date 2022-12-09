@@ -12,12 +12,12 @@ using System.IO;
 
 namespace _2_6c
 {
-    public partial class Form1 : Form
+    public partial class _2_6C_Form : Form
     {
         private string filePath = @"D:\Text\results.txt";
         private List<string[]> buff = new List<string[]>();
 
-        public Form1()
+        public _2_6C_Form()
         {
             InitializeComponent();
             DateReader();
@@ -25,16 +25,16 @@ namespace _2_6c
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.listView1.Items.Clear();
-            this.listView2.Items.Clear();
-            this.listView3.Items.Clear();
+            this.Jap_listView.Items.Clear();
+            this.Math_listView.Items.Clear();
+            this.Eng_listView.Items.Clear();
 
             foreach (string[] Date in buff)
             {
                 List<ListViewItem> tmpDate = setDate(Date);
-                this.listView1.Items.Add(tmpDate[0]);
-                this.listView2.Items.Add(tmpDate[1]);
-                this.listView3.Items.Add(tmpDate[2]);
+                this.Jap_listView.Items.Add(tmpDate[0]);
+                this.Math_listView.Items.Add(tmpDate[1]);
+                this.Eng_listView.Items.Add(tmpDate[2]);
                 
             }
         }

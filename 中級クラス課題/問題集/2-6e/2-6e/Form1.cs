@@ -7,16 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Collections.Generic;
 using System.IO;
 
 namespace _2_6e
 {
-    public partial class Form1 : Form
+    public partial class _2_6e_Form : Form
     {
         private string filePath = @"D:\Text\results.txt";
         private List<string[]> buff = new List<string[]>();
-        public Form1()
+        public _2_6e_Form()
         {
             InitializeComponent();
             DateReader();
@@ -25,39 +24,39 @@ namespace _2_6e
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.comboBox1.SelectedItem == null)
+            if (this.Chose_Name_Combo.SelectedItem == null)
             {
               
             }
-            else if (this.comboBox1.SelectedItem.ToString() == "全員")
+            else if (this.Chose_Name_Combo.SelectedItem.ToString() == "全員")
             {
-                this.listView1.Items.Clear();
-                this.listView2.Items.Clear();
-                this.listView3.Items.Clear();
+                this.Jap_listView.Items.Clear();
+                this.Math_listView.Items.Clear();
+                this.Eng_listView.Items.Clear();
                 foreach (string[] Date in buff)
                 {
                     List<ListViewItem> tmpDate = setDate(Date);
 
-                    this.listView1.Items.Add(tmpDate[0]);
-                    this.listView2.Items.Add(tmpDate[1]);
-                    this.listView3.Items.Add(tmpDate[2]);
+                    this.Jap_listView.Items.Add(tmpDate[0]);
+                    this.Math_listView.Items.Add(tmpDate[1]);
+                    this.Eng_listView.Items.Add(tmpDate[2]);
                 }
             }
             else
             {
-                this.listView1.Items.Clear();
-                this.listView2.Items.Clear();
-                this.listView3.Items.Clear();
+                this.Jap_listView.Items.Clear();
+                this.Math_listView.Items.Clear();
+                this.Eng_listView.Items.Clear();
 
                 foreach (string[] Date in buff)
                 {
-                    if (this.comboBox1.SelectedItem.ToString() == Date[0])
+                    if (this.Chose_Name_Combo.SelectedItem.ToString() == Date[0])
                     {
                         List<ListViewItem> tmpDate = setDate(Date);
 
-                        this.listView1.Items.Add(tmpDate[0]);
-                        this.listView2.Items.Add(tmpDate[1]);
-                        this.listView3.Items.Add(tmpDate[2]);
+                        this.Jap_listView.Items.Add(tmpDate[0]);
+                        this.Math_listView.Items.Add(tmpDate[1]);
+                        this.Eng_listView.Items.Add(tmpDate[2]);
                     }
                 }
             }
@@ -93,10 +92,10 @@ namespace _2_6e
         {
             foreach (string[] combo in buff)
             {
-                this.comboBox1.Items.Add(combo[0]);
+                this.Chose_Name_Combo.Items.Add(combo[0]);
             }
 
-            this.comboBox1.Items.Add("全員");
+            this.Chose_Name_Combo.Items.Add("全員");
         }
     }
 }

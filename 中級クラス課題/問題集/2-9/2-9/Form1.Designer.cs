@@ -1,7 +1,7 @@
 ﻿
 namespace _2_9
 {
-    partial class Form1
+    partial class _2_9_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,47 +29,47 @@ namespace _2_9
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Ask_label = new System.Windows.Forms.Label();
+            this.BrithDay_dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.HowLong_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Ask_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(221, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "生年月日を入力して、ボタンを押してください。";
+            this.Ask_label.AutoSize = true;
+            this.Ask_label.Location = new System.Drawing.Point(12, 9);
+            this.Ask_label.Name = "Ask_label";
+            this.Ask_label.Size = new System.Drawing.Size(221, 15);
+            this.Ask_label.TabIndex = 0;
+            this.Ask_label.Text = "生年月日を入力して、ボタンを押してください。";
             // 
-            // dateTimePicker1
+            // BrithDay_dateTimePicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 27);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
-            this.dateTimePicker1.TabIndex = 1;
+            this.BrithDay_dateTimePicker.Location = new System.Drawing.Point(12, 27);
+            this.BrithDay_dateTimePicker.Name = "BrithDay_dateTimePicker";
+            this.BrithDay_dateTimePicker.Size = new System.Drawing.Size(200, 23);
+            this.BrithDay_dateTimePicker.TabIndex = 1;
             // 
-            // button1
+            // HowLong_button
             // 
-            this.button1.Location = new System.Drawing.Point(195, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "何日目?";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.HowLong_button.Location = new System.Drawing.Point(195, 56);
+            this.HowLong_button.Name = "HowLong_button";
+            this.HowLong_button.Size = new System.Drawing.Size(75, 23);
+            this.HowLong_button.TabIndex = 2;
+            this.HowLong_button.Text = "何日目?";
+            this.HowLong_button.UseVisualStyleBackColor = true;
+            this.HowLong_button.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // _2_9_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(281, 94);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.HowLong_button);
+            this.Controls.Add(this.BrithDay_dateTimePicker);
+            this.Controls.Add(this.Ask_label);
+            this.Name = "_2_9_Form";
+            this.Text = "2-9";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,9 +77,9 @@ namespace _2_9
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Ask_label;
+        private System.Windows.Forms.DateTimePicker BrithDay_dateTimePicker;
+        private System.Windows.Forms.Button HowLong_button;
     }
 }
 

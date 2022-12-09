@@ -11,11 +11,11 @@ using System.IO;
 
 namespace _2_6f
 {
-    public partial class Form1 : Form
+    public partial class _2_6f_Form : Form
     {
         private string filePath = @"D:\Text\results.txt";
         private List<string[]> buff = new List<string[]>();
-        public Form1()
+        public _2_6f_Form()
         {
             InitializeComponent();
             DateReader();
@@ -24,31 +24,31 @@ namespace _2_6f
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.comboBox2.SelectedItem == null)
+            if (this.Name_comboBox.SelectedItem == null)
             {
 
             }
-            else if (this.comboBox2.SelectedItem.ToString() == "全員")
+            else if (this.Name_comboBox.SelectedItem.ToString() == "全員")
             {
-                this.listView1.Items.Clear();
+                this.NameAndPoint_listView.Items.Clear();
                 foreach (string[] Date in buff)
                 {
                     ListViewItem tmpDate = setDate(Date);
 
-                    this.listView1.Items.Add(tmpDate);
+                    this.NameAndPoint_listView.Items.Add(tmpDate);
                 }
             }
             else
             {
-                this.listView1.Items.Clear();
+                this.NameAndPoint_listView.Items.Clear();
 
                 foreach (string[] Date in buff)
                 {
-                    if (this.comboBox2.SelectedItem.ToString() == Date[0])
+                    if (this.Name_comboBox.SelectedItem.ToString() == Date[0])
                     {
                         ListViewItem tmpDate = setDate(Date);
 
-                        this.listView1.Items.Add(tmpDate);
+                        this.NameAndPoint_listView.Items.Add(tmpDate);
                     }
                 }
             }
@@ -70,7 +70,7 @@ namespace _2_6f
         {
             int index = 0;
 
-            switch (this.comboBox1.SelectedItem)
+            switch (this.Subject_comboBox.SelectedItem)
             {
                 case "国語":
                     index = 1;
@@ -93,13 +93,13 @@ namespace _2_6f
         {
             foreach (string[] combo in buff)
             {
-                this.comboBox2.Items.Add(combo[0]);
+                this.Name_comboBox.Items.Add(combo[0]);
             }
 
-            this.comboBox2.Items.Add("全員");
+            this.Name_comboBox.Items.Add("全員");
 
-            this.comboBox1.SelectedItem = "国語";
-            this.comboBox2.SelectedItem = "全員";
+            this.Subject_comboBox.SelectedItem = "国語";
+            this.Name_comboBox.SelectedItem = "全員";
         }
     }
 }

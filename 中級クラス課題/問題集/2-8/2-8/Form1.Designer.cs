@@ -1,7 +1,7 @@
 ﻿
 namespace _2_8
 {
-    partial class Form1
+    partial class _2_8_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,187 +29,187 @@ namespace _2_8
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.Money_label = new System.Windows.Forms.Label();
+            this.OddOrEven_label = new System.Windows.Forms.Label();
+            this.BetMoney_label = new System.Windows.Forms.Label();
+            this.Daice_label = new System.Windows.Forms.Label();
+            this.Money_textBox = new System.Windows.Forms.TextBox();
+            this.BetMoney_textBox = new System.Windows.Forms.TextBox();
+            this.OddOrEven_comboBox = new System.Windows.Forms.ComboBox();
+            this.Daice_button = new System.Windows.Forms.Button();
+            this.Result_label = new System.Windows.Forms.Label();
+            this.WhatsNum_label = new System.Windows.Forms.Label();
+            this.Start_button = new System.Windows.Forms.Button();
+            this.Reset_button = new System.Windows.Forms.Button();
+            this.Cancel_button = new System.Windows.Forms.Button();
+            this.Yen_label1 = new System.Windows.Forms.Label();
+            this.Yen_label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // Money_label
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "所持金";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Money_label.Location = new System.Drawing.Point(12, 9);
+            this.Money_label.Name = "Money_label";
+            this.Money_label.Size = new System.Drawing.Size(152, 24);
+            this.Money_label.TabIndex = 0;
+            this.Money_label.Text = "所持金";
+            this.Money_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label2
+            // OddOrEven_label
             // 
-            this.label2.Location = new System.Drawing.Point(12, 85);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(152, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "奇数か偶数か入力して下さい";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.OddOrEven_label.Location = new System.Drawing.Point(12, 85);
+            this.OddOrEven_label.Name = "OddOrEven_label";
+            this.OddOrEven_label.Size = new System.Drawing.Size(152, 24);
+            this.OddOrEven_label.TabIndex = 1;
+            this.OddOrEven_label.Text = "奇数か偶数か入力して下さい";
+            this.OddOrEven_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label3
+            // BetMoney_label
             // 
-            this.label3.Location = new System.Drawing.Point(12, 47);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 24);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "掛け金を入力してください。";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BetMoney_label.Location = new System.Drawing.Point(12, 47);
+            this.BetMoney_label.Name = "BetMoney_label";
+            this.BetMoney_label.Size = new System.Drawing.Size(152, 24);
+            this.BetMoney_label.TabIndex = 2;
+            this.BetMoney_label.Text = "掛け金を入力してください。";
+            this.BetMoney_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label4
+            // Daice_label
             // 
-            this.label4.Location = new System.Drawing.Point(12, 123);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 24);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "サイコロを振ってください";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Daice_label.Location = new System.Drawing.Point(12, 123);
+            this.Daice_label.Name = "Daice_label";
+            this.Daice_label.Size = new System.Drawing.Size(152, 24);
+            this.Daice_label.TabIndex = 3;
+            this.Daice_label.Text = "サイコロを振ってください";
+            this.Daice_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBox1
+            // Money_textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(180, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(162, 23);
-            this.textBox1.TabIndex = 4;
+            this.Money_textBox.Location = new System.Drawing.Point(180, 9);
+            this.Money_textBox.Name = "Money_textBox";
+            this.Money_textBox.ReadOnly = true;
+            this.Money_textBox.Size = new System.Drawing.Size(162, 23);
+            this.Money_textBox.TabIndex = 4;
             // 
-            // textBox2
+            // BetMoney_textBox
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(180, 47);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 23);
-            this.textBox2.TabIndex = 5;
+            this.BetMoney_textBox.Enabled = false;
+            this.BetMoney_textBox.Location = new System.Drawing.Point(180, 47);
+            this.BetMoney_textBox.Name = "BetMoney_textBox";
+            this.BetMoney_textBox.Size = new System.Drawing.Size(162, 23);
+            this.BetMoney_textBox.TabIndex = 5;
             // 
-            // comboBox1
+            // OddOrEven_comboBox
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.OddOrEven_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.OddOrEven_comboBox.Enabled = false;
+            this.OddOrEven_comboBox.FormattingEnabled = true;
+            this.OddOrEven_comboBox.Items.AddRange(new object[] {
             "奇数",
             "偶数"});
-            this.comboBox1.Location = new System.Drawing.Point(180, 87);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(118, 23);
-            this.comboBox1.TabIndex = 6;
+            this.OddOrEven_comboBox.Location = new System.Drawing.Point(180, 87);
+            this.OddOrEven_comboBox.Name = "OddOrEven_comboBox";
+            this.OddOrEven_comboBox.Size = new System.Drawing.Size(118, 23);
+            this.OddOrEven_comboBox.TabIndex = 6;
             // 
-            // button1
+            // Daice_button
             // 
-            this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(180, 123);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "サイコロを振る";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Daice_button.Enabled = false;
+            this.Daice_button.Location = new System.Drawing.Point(180, 123);
+            this.Daice_button.Name = "Daice_button";
+            this.Daice_button.Size = new System.Drawing.Size(118, 23);
+            this.Daice_button.TabIndex = 7;
+            this.Daice_button.Text = "サイコロを振る";
+            this.Daice_button.UseVisualStyleBackColor = true;
+            this.Daice_button.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label5
+            // Result_label
             // 
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(180, 166);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(188, 126);
-            this.label5.TabIndex = 8;
+            this.Result_label.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Result_label.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Result_label.Location = new System.Drawing.Point(180, 166);
+            this.Result_label.Name = "Result_label";
+            this.Result_label.Size = new System.Drawing.Size(188, 126);
+            this.Result_label.TabIndex = 8;
             // 
-            // label6
+            // WhatsNum_label
             // 
-            this.label6.Location = new System.Drawing.Point(12, 218);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 23);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "サイコロの目は...";
+            this.WhatsNum_label.Location = new System.Drawing.Point(12, 218);
+            this.WhatsNum_label.Name = "WhatsNum_label";
+            this.WhatsNum_label.Size = new System.Drawing.Size(100, 23);
+            this.WhatsNum_label.TabIndex = 9;
+            this.WhatsNum_label.Text = "サイコロの目は...";
             // 
-            // button2
+            // Start_button
             // 
-            this.button2.Location = new System.Drawing.Point(17, 317);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 29);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "ゲーム開始";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Start_button.Location = new System.Drawing.Point(17, 317);
+            this.Start_button.Name = "Start_button";
+            this.Start_button.Size = new System.Drawing.Size(100, 29);
+            this.Start_button.TabIndex = 10;
+            this.Start_button.Text = "ゲーム開始";
+            this.Start_button.UseVisualStyleBackColor = true;
+            this.Start_button.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // Reset_button
             // 
-            this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(145, 317);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 29);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "リセット";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.Reset_button.Enabled = false;
+            this.Reset_button.Location = new System.Drawing.Point(145, 317);
+            this.Reset_button.Name = "Reset_button";
+            this.Reset_button.Size = new System.Drawing.Size(100, 29);
+            this.Reset_button.TabIndex = 11;
+            this.Reset_button.Text = "リセット";
+            this.Reset_button.UseVisualStyleBackColor = true;
+            this.Reset_button.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // Cancel_button
             // 
-            this.button4.Location = new System.Drawing.Point(273, 317);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 29);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "終了";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Cancel_button.Location = new System.Drawing.Point(273, 317);
+            this.Cancel_button.Name = "Cancel_button";
+            this.Cancel_button.Size = new System.Drawing.Size(100, 29);
+            this.Cancel_button.TabIndex = 12;
+            this.Cancel_button.Text = "終了";
+            this.Cancel_button.UseVisualStyleBackColor = true;
+            this.Cancel_button.Click += new System.EventHandler(this.button4_Click);
             // 
-            // label7
+            // Yen_label1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(349, 13);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(19, 15);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "円";
+            this.Yen_label1.AutoSize = true;
+            this.Yen_label1.Location = new System.Drawing.Point(349, 13);
+            this.Yen_label1.Name = "Yen_label1";
+            this.Yen_label1.Size = new System.Drawing.Size(19, 15);
+            this.Yen_label1.TabIndex = 13;
+            this.Yen_label1.Text = "円";
             // 
-            // label8
+            // Yen_label2
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(349, 52);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(19, 15);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "円";
+            this.Yen_label2.AutoSize = true;
+            this.Yen_label2.Location = new System.Drawing.Point(349, 52);
+            this.Yen_label2.Name = "Yen_label2";
+            this.Yen_label2.Size = new System.Drawing.Size(19, 15);
+            this.Yen_label2.TabIndex = 14;
+            this.Yen_label2.Text = "円";
             // 
-            // Form1
+            // _2_8_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(395, 358);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.Yen_label2);
+            this.Controls.Add(this.Yen_label1);
+            this.Controls.Add(this.Cancel_button);
+            this.Controls.Add(this.Reset_button);
+            this.Controls.Add(this.Start_button);
+            this.Controls.Add(this.WhatsNum_label);
+            this.Controls.Add(this.Result_label);
+            this.Controls.Add(this.Daice_button);
+            this.Controls.Add(this.OddOrEven_comboBox);
+            this.Controls.Add(this.BetMoney_textBox);
+            this.Controls.Add(this.Money_textBox);
+            this.Controls.Add(this.Daice_label);
+            this.Controls.Add(this.BetMoney_label);
+            this.Controls.Add(this.OddOrEven_label);
+            this.Controls.Add(this.Money_label);
+            this.Name = "_2_8_Form";
+            this.Text = "2-8";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,21 +217,21 @@ namespace _2_8
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label Money_label;
+        private System.Windows.Forms.Label OddOrEven_label;
+        private System.Windows.Forms.Label BetMoney_label;
+        private System.Windows.Forms.Label Daice_label;
+        private System.Windows.Forms.TextBox Money_textBox;
+        private System.Windows.Forms.TextBox BetMoney_textBox;
+        private System.Windows.Forms.ComboBox OddOrEven_comboBox;
+        private System.Windows.Forms.Button Daice_button;
+        private System.Windows.Forms.Label Result_label;
+        private System.Windows.Forms.Label WhatsNum_label;
+        private System.Windows.Forms.Button Start_button;
+        private System.Windows.Forms.Button Reset_button;
+        private System.Windows.Forms.Button Cancel_button;
+        private System.Windows.Forms.Label Yen_label1;
+        private System.Windows.Forms.Label Yen_label2;
     }
 }
 

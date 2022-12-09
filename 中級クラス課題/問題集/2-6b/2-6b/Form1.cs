@@ -12,10 +12,10 @@ using System.Collections.Generic;
 
 namespace _2_6b
 {
-    public partial class Form1 : Form
+    public partial class _2_6b_Form : Form
     {
         private string filePath = @"D:\Text\results.txt";
-        public Form1()
+        public _2_6b_Form()
         {
             InitializeComponent();
         }
@@ -32,12 +32,12 @@ namespace _2_6b
 
             SR.Close();
 
-            this.listView1.Items.Clear();
+            this.ListView.Items.Clear();
 
             foreach (string[] outPut in buff)
             {
                 ListViewItem viewItem = new ListViewItem(outPut);
-                this.listView1.Items.Add(viewItem);
+                this.ListView.Items.Add(viewItem);
             }
             
         }

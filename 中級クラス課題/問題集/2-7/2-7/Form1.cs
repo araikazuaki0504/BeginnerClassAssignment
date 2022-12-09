@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace _2_7
 {
-    public partial class Form1 : Form
+    public partial class _2_7_Form : Form
     {
         private int Ans = 0;
 
-        public Form1()
+        public _2_7_Form()
         {
             InitializeComponent();
         }
@@ -25,30 +25,30 @@ namespace _2_7
 
             this.Ans = Rand.Next(100);
 
-            this.button1.Enabled = false;
-            this.button2.Enabled = true;
-            this.textBox1.Enabled = true;
+            this.Start_button.Enabled = false;
+            this.Check_button.Enabled = true;
+            this.inputNum_textBox.Enabled = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (this.Ans == int.Parse(this.textBox1.Text))
+            if (this.Ans == int.Parse(this.inputNum_textBox.Text))
             {
                 MessageBox.Show("正解です。おめでとう！");
-                this.button1.Enabled = true;
-                this.button2.Enabled = false;
-                this.textBox1.Enabled = false;
-                this.textBox1.Text = string.Empty;
+                this.Start_button.Enabled = true;
+                this.Check_button.Enabled = false;
+                this.inputNum_textBox.Enabled = false;
+                this.inputNum_textBox.Text = string.Empty;
             }
-            else if (this.Ans < int.Parse(this.textBox1.Text))
+            else if (this.Ans < int.Parse(this.inputNum_textBox.Text))
             {
                 MessageBox.Show("もっと小さいです。");
-                this.textBox1.Text = string.Empty;
+                this.inputNum_textBox.Text = string.Empty;
             }
-            else if (this.Ans > int.Parse(this.textBox1.Text))
+            else if (this.Ans > int.Parse(this.inputNum_textBox.Text))
             {
                 MessageBox.Show("もっと大きいです。");
-                this.textBox1.Text = string.Empty;
+                this.inputNum_textBox.Text = string.Empty;
             }
         }
     }
