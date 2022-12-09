@@ -1,7 +1,7 @@
 ﻿
 namespace _2_2b
 {
-    partial class Form1
+    partial class _2_2b_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,26 +29,26 @@ namespace _2_2b
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Ask_label = new System.Windows.Forms.Label();
+            this.Name_textBox = new System.Windows.Forms.TextBox();
             this.pushBotton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Ask_label
             // 
-            this.label1.Location = new System.Drawing.Point(10, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 42);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "名前を入力してください";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Ask_label.Location = new System.Drawing.Point(10, 22);
+            this.Ask_label.Name = "Ask_label";
+            this.Ask_label.Size = new System.Drawing.Size(138, 42);
+            this.Ask_label.TabIndex = 0;
+            this.Ask_label.Text = "名前を入力してください";
+            this.Ask_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // Name_textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(154, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 23);
-            this.textBox1.TabIndex = 1;
+            this.Name_textBox.Location = new System.Drawing.Point(154, 33);
+            this.Name_textBox.Name = "Name_textBox";
+            this.Name_textBox.Size = new System.Drawing.Size(151, 23);
+            this.Name_textBox.TabIndex = 1;
             // 
             // pushBotton
             // 
@@ -66,8 +66,8 @@ namespace _2_2b
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(317, 121);
             this.Controls.Add(this.pushBotton);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Name_textBox);
+            this.Controls.Add(this.Ask_label);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -77,8 +77,8 @@ namespace _2_2b
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label Ask_label;
+        private System.Windows.Forms.TextBox Name_textBox;
         private System.Windows.Forms.Button pushBotton;
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace _2_2
 {
-    partial class Form1
+    partial class _2_2_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,26 +29,26 @@ namespace _2_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.Display_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // Display_button
             // 
-            this.button1.Font = new System.Drawing.Font("Yu Gothic UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(317, 116);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "おみくじを引く";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Display_button.Font = new System.Drawing.Font("Yu Gothic UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Display_button.Location = new System.Drawing.Point(12, 12);
+            this.Display_button.Name = "Display_button";
+            this.Display_button.Size = new System.Drawing.Size(317, 116);
+            this.Display_button.TabIndex = 0;
+            this.Display_button.Text = "おみくじを引く";
+            this.Display_button.UseVisualStyleBackColor = true;
+            this.Display_button.Click += new System.EventHandler(this.Display_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(338, 145);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Display_button);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -57,7 +57,7 @@ namespace _2_2
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Display_button;
     }
 }
 

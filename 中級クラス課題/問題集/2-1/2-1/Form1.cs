@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _2_1
 {
-    public partial class queLabel : Form
+    public partial class _2_1Form : Form
     {
-        public queLabel()
+        public _2_1Form()
         {
             InitializeComponent();
         }

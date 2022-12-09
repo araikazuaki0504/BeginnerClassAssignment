@@ -1,7 +1,7 @@
 ﻿
 namespace _2_3
 {
-    partial class Form1
+    partial class _2_3_Form
     {
         /// <summary>
         ///  Required designer variable.

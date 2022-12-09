@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace _2_2
 {
-    public partial class Form1 : Form
+    public partial class _2_2_Form : Form
     {
         private string[] sarcedLot = {
             "大吉：今日は最高の一日",
@@ -26,12 +26,12 @@ namespace _2_2
             "末凶：ついていない一日。あまり無駄使いをしないほうが良いかも",
             "大凶：最悪な一日。おとなしくしておいた方がいいかも"
         };
-        public Form1()
+        public _2_2_Form()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Display_button_Click(object sender, EventArgs e)
         {
             Random Rand = new Random();
 
