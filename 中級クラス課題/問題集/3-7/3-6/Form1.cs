@@ -11,11 +11,11 @@ using System.IO;
 
 namespace _3_6
 {
-    public partial class Form1 : Form
+    public partial class _3_7_Form : Form
     {
         private List<string[]> Data = new List<string[]>();
 
-        public Form1()
+        public _3_7_Form()
         {
             InitializeComponent();
         }

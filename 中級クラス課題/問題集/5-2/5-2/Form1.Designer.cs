@@ -1,7 +1,7 @@
 ﻿
 namespace _5_2
 {
-    partial class Form1
+    partial class _5_2_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,7 +30,7 @@ namespace _5_2
         private void InitializeComponent()
         {
             this.OK_button = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.HowOld_label = new System.Windows.Forms.Label();
             this.inputAge = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -44,14 +44,14 @@ namespace _5_2
             this.OK_button.UseVisualStyleBackColor = true;
             this.OK_button.Click += new System.EventHandler(this.OK_button_Click);
             // 
-            // label1
+            // HowOld_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "年齢はいくつですか";
+            this.HowOld_label.AutoSize = true;
+            this.HowOld_label.Location = new System.Drawing.Point(12, 36);
+            this.HowOld_label.Name = "HowOld_label";
+            this.HowOld_label.Size = new System.Drawing.Size(121, 20);
+            this.HowOld_label.TabIndex = 1;
+            this.HowOld_label.Text = "年齢はいくつですか";
             // 
             // inputAge
             // 
@@ -60,16 +60,16 @@ namespace _5_2
             this.inputAge.Size = new System.Drawing.Size(125, 27);
             this.inputAge.TabIndex = 2;
             // 
-            // Form1
+            // _5_2_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 129);
             this.Controls.Add(this.inputAge);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.HowOld_label);
             this.Controls.Add(this.OK_button);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "_5_2_Form";
+            this.Text = "5-2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -78,7 +78,7 @@ namespace _5_2
         #endregion
 
         private System.Windows.Forms.Button OK_button;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label HowOld_label;
         private System.Windows.Forms.TextBox inputAge;
     }
 }

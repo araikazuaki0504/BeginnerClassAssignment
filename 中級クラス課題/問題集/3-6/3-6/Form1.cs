@@ -12,12 +12,12 @@ using System.IO;
 
 namespace _2_4
 {
-    public partial class Form1 : Form
+    public partial class _3_6_Form : Form
     {
         private List<string> sarcedLot = new List<string>();
         private string filePath = @"D:\Text\Test.txt";
 
-        public Form1()
+        public _3_6_Form()
         {
             InitializeComponent();
             readDate();

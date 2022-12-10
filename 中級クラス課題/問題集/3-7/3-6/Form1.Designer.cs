@@ -1,7 +1,7 @@
 ﻿
 namespace _3_6
 {
-    partial class Form1
+    partial class _3_7_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -92,7 +92,7 @@ namespace _3_6
             // 
             this.File_Write_Dialog.FileOk += new System.ComponentModel.CancelEventHandler(this.File_Write_Dialog_FileOk);
             // 
-            // Form1
+            // _3_7_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,8 +100,8 @@ namespace _3_6
             this.Controls.Add(this.Write_button);
             this.Controls.Add(this.Read_button);
             this.Controls.Add(this.Display_listView);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "_3_7_Form";
+            this.Text = "3-7";
             this.ResumeLayout(false);
 
         }

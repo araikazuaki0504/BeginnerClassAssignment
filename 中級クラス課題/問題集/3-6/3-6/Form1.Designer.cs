@@ -1,7 +1,7 @@
 ﻿
 namespace _2_4
 {
-    partial class Form1
+    partial class _3_6_Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,40 +36,43 @@ namespace _2_4
             // 
             // Display_label
             // 
-            this.Display_label.Location = new System.Drawing.Point(11, 36);
+            this.Display_label.Location = new System.Drawing.Point(13, 48);
             this.Display_label.Name = "Display_label";
-            this.Display_label.Size = new System.Drawing.Size(121, 23);
+            this.Display_label.Size = new System.Drawing.Size(138, 31);
             this.Display_label.TabIndex = 0;
             this.Display_label.Text = "名前を入力してください";
             this.Display_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Name_textBox
             // 
-            this.Name_textBox.Location = new System.Drawing.Point(162, 37);
+            this.Name_textBox.Location = new System.Drawing.Point(185, 49);
+            this.Name_textBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name_textBox.Name = "Name_textBox";
-            this.Name_textBox.Size = new System.Drawing.Size(152, 23);
+            this.Name_textBox.Size = new System.Drawing.Size(173, 27);
             this.Name_textBox.TabIndex = 1;
             // 
             // SarcedLot_button
             // 
-            this.SarcedLot_button.Location = new System.Drawing.Point(111, 75);
+            this.SarcedLot_button.Location = new System.Drawing.Point(127, 100);
+            this.SarcedLot_button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.SarcedLot_button.Name = "SarcedLot_button";
-            this.SarcedLot_button.Size = new System.Drawing.Size(93, 23);
+            this.SarcedLot_button.Size = new System.Drawing.Size(106, 31);
             this.SarcedLot_button.TabIndex = 2;
             this.SarcedLot_button.Text = "おみくじを引く";
             this.SarcedLot_button.UseVisualStyleBackColor = true;
             this.SarcedLot_button.Click += new System.EventHandler(this.SarcedLot_button_Click);
             // 
-            // Form1
+            // _3_6_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(330, 121);
+            this.ClientSize = new System.Drawing.Size(377, 161);
             this.Controls.Add(this.SarcedLot_button);
             this.Controls.Add(this.Name_textBox);
             this.Controls.Add(this.Display_label);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "_3_6_Form";
+            this.Text = "3-6";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -14,16 +14,18 @@ namespace _3_9
             Console.WriteLine("最大値は、" + Ans[LastIndex].ToString() + "です。");
         }
 
+        //マージンソートを行う関数
         static int[] MergeSort(int[] Data)
         {
-            if (Data.Length == 1)
+
+            if (Data.Length == 1)//長さが1の時
             {
                 int[] ReturnData = new int[1];
 
                 ReturnData[0] = Data[0];
                 return ReturnData;
             }
-            else if (Data.Length == 2)
+            else if (Data.Length == 2)//長さ2の時
             {
                 if (Data[0] > Data[1])
                 {
@@ -44,9 +46,9 @@ namespace _3_9
                     return ReturnData;
                 }
             }
-            else
+            else//まだ分割出来る長さのとき
             {
-                if (Data.Length % 2 == 0)
+                if (Data.Length % 2 == 0)//データの長さが偶数のとき
                 {
                     //はじめのmerge
                     int[] firstData = DivData(0, Data.Length / 2, Data);
@@ -92,7 +94,7 @@ namespace _3_9
                     }
                     return ReturnData;
                 }
-                else
+                else//データの長さが奇数のとき
                 {
                     //はじめのmerge
                     int[] firstData = DivData(0, (Data.Length / 2) + 1, Data);
@@ -140,6 +142,7 @@ namespace _3_9
             }
          }
 
+        // 引数の配列からInitからFin - 1までの配列を返す関数
         static int[] DivData(int Init, int Fin, int[] Data)
         {
             int DataLength = Fin - Init;
