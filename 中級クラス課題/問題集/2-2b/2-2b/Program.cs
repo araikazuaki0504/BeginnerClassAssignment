@@ -17,7 +17,7 @@ namespace _2_2b
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new _2_2b_Form());
+            Application.Run(new Form_Main());
         }
     }
 }

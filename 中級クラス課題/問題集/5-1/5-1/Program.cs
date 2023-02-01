@@ -6,7 +6,22 @@ namespace _5_1
     {
         static void Main(string[] args)
         {
-            int age = Input();
+            int age = 0;
+            Console.WriteLine("年齢を入力してください。");
+
+            while (true)
+            {
+                string inputData = Console.ReadLine();
+
+                if (int.TryParse(inputData, out age))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("数値を入力してください");
+                }
+            }
 
             if (13 <= age)
             {
@@ -30,24 +45,6 @@ namespace _5_1
                 }
             }
             Console.ReadLine();
-        }
-
-        static int Input()
-        {
-            int Num = 0;
-            string inputData = Console.ReadLine();
-
-            if (int.TryParse(inputData, out Num))
-            {
-                return Num;
-            }
-            else
-            {
-                Console.WriteLine("数値を入力してください");
-                Num = Input();
-                return Num;
-            }
-
         }
     }
 }

@@ -28,6 +28,8 @@ namespace _4_2
                 }
             }
 
+            Reader.Close();
+
             return Data;
         }
 
