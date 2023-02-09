@@ -11,11 +11,19 @@ using System.IO;
 
 namespace _3_6
 {
+<<<<<<< HEAD:中級クラス課題/問題集/3-7/3-6/Form_Main.cs
     public partial class Form_Main : Form
     {
         private List<string[]> Data = new List<string[]>();
 
         public Form_Main()
+=======
+    public partial class _3_7_Form : Form
+    {
+        private List<string[]> Data = new List<string[]>();
+
+        public _3_7_Form()
+>>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60:中級クラス課題/問題集/3-7/3-6/Form1.cs
         {
             InitializeComponent();
         }

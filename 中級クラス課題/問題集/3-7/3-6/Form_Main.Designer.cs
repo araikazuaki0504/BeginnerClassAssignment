@@ -1,7 +1,11 @@
 ﻿
 namespace _3_6
 {
+<<<<<<< HEAD:中級クラス課題/問題集/3-7/3-6/Form_Main.Designer.cs
     partial class Form_Main
+=======
+    partial class _3_7_Form
+>>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60:中級クラス課題/問題集/3-7/3-6/Form1.Designer.cs
     {
         /// <summary>
         ///  Required designer variable.
@@ -92,7 +96,7 @@ namespace _3_6
             // 
             this.File_Write_Dialog.FileOk += new System.ComponentModel.CancelEventHandler(this.File_Write_Dialog_FileOk);
             // 
-            // Form1
+            // _3_7_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,8 +104,8 @@ namespace _3_6
             this.Controls.Add(this.Write_button);
             this.Controls.Add(this.Read_button);
             this.Controls.Add(this.Display_listView);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "_3_7_Form";
+            this.Text = "3-7";
             this.ResumeLayout(false);
 
         }

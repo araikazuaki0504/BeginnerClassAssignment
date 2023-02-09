@@ -17,7 +17,11 @@ namespace _3_6
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Form_Main());
+=======
+            Application.Run(new _3_7_Form());
+>>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60
         }
     }
 }

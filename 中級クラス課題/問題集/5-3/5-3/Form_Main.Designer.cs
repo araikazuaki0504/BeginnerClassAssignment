@@ -1,7 +1,11 @@
 ﻿
 namespace _5_3
 {
+<<<<<<< HEAD:中級クラス課題/問題集/5-3/5-3/Form_Main.Designer.cs
     partial class Form_Main
+=======
+    partial class _5_3_Form
+>>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60:中級クラス課題/問題集/5-3/5-3/Form1.Designer.cs
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,7 +40,7 @@ namespace _5_3
             this.Name_textBox = new System.Windows.Forms.TextBox();
             this.Month_textBox = new System.Windows.Forms.TextBox();
             this.Day_textBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.WhatNameAndBirthday_label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Display_button
@@ -97,21 +101,21 @@ namespace _5_3
             this.Day_textBox.Size = new System.Drawing.Size(125, 27);
             this.Day_textBox.TabIndex = 6;
             // 
-            // label1
+            // WhatNameAndBirthday_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 20);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "氏名、誕生日を入力してください";
+            this.WhatNameAndBirthday_label.AutoSize = true;
+            this.WhatNameAndBirthday_label.Location = new System.Drawing.Point(51, 9);
+            this.WhatNameAndBirthday_label.Name = "WhatNameAndBirthday_label";
+            this.WhatNameAndBirthday_label.Size = new System.Drawing.Size(199, 20);
+            this.WhatNameAndBirthday_label.TabIndex = 7;
+            this.WhatNameAndBirthday_label.Text = "氏名、誕生日を入力してください";
             // 
-            // Form1
+            // _5_3_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(273, 274);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.WhatNameAndBirthday_label);
             this.Controls.Add(this.Day_textBox);
             this.Controls.Add(this.Month_textBox);
             this.Controls.Add(this.Name_textBox);
@@ -119,8 +123,8 @@ namespace _5_3
             this.Controls.Add(this.Month_lable);
             this.Controls.Add(this.Name_label);
             this.Controls.Add(this.Display_button);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "_5_3_Form";
+            this.Text = "5-3";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,7 +139,7 @@ namespace _5_3
         private System.Windows.Forms.TextBox Name_textBox;
         private System.Windows.Forms.TextBox Month_textBox;
         private System.Windows.Forms.TextBox Day_textBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label WhatNameAndBirthday_label;
     }
 }
 
