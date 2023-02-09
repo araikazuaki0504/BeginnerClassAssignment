@@ -10,15 +10,10 @@ using System.Windows.Forms;
 
 namespace _5_3
 {
-<<<<<<< HEAD:中級クラス課題/問題集/5-3/5-3/Form_Main.cs
     public partial class Form_Main : Form
     {
         public Form_Main()
-=======
-    public partial class _5_3_Form : Form
-    {
-        public _5_3_Form()
->>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60:中級クラス課題/問題集/5-3/5-3/Form1.cs
+
         {
             InitializeComponent();
         }

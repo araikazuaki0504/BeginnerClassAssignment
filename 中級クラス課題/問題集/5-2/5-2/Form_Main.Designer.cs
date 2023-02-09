@@ -1,12 +1,8 @@
 ﻿
 namespace _5_2
 {
-<<<<<<< HEAD:中級クラス課題/問題集/5-2/5-2/Form_Main.Designer.cs
     partial class Form_Main
-=======
-    partial class _5_2_Form
->>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60:中級クラス課題/問題集/5-2/5-2/Form1.Designer.cs
-    {
+    { 
         /// <summary>
         ///  Required designer variable.
         /// </summary>
@@ -40,9 +36,10 @@ namespace _5_2
             // 
             // OK_button
             // 
-            this.OK_button.Location = new System.Drawing.Point(238, 77);
+            this.OK_button.Location = new System.Drawing.Point(208, 58);
+            this.OK_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OK_button.Name = "OK_button";
-            this.OK_button.Size = new System.Drawing.Size(94, 29);
+            this.OK_button.Size = new System.Drawing.Size(82, 22);
             this.OK_button.TabIndex = 0;
             this.OK_button.Text = "OK";
             this.OK_button.UseVisualStyleBackColor = true;
@@ -51,28 +48,30 @@ namespace _5_2
             // HowOld_label
             // 
             this.HowOld_label.AutoSize = true;
-            this.HowOld_label.Location = new System.Drawing.Point(12, 36);
+            this.HowOld_label.Location = new System.Drawing.Point(10, 27);
             this.HowOld_label.Name = "HowOld_label";
-            this.HowOld_label.Size = new System.Drawing.Size(121, 20);
+            this.HowOld_label.Size = new System.Drawing.Size(97, 15);
             this.HowOld_label.TabIndex = 1;
             this.HowOld_label.Text = "年齢はいくつですか";
             // 
             // inputAge
             // 
-            this.inputAge.Location = new System.Drawing.Point(139, 33);
+            this.inputAge.Location = new System.Drawing.Point(122, 25);
+            this.inputAge.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.inputAge.Name = "inputAge";
-            this.inputAge.Size = new System.Drawing.Size(125, 27);
+            this.inputAge.Size = new System.Drawing.Size(110, 23);
             this.inputAge.TabIndex = 2;
             // 
-            // _5_2_Form
+            // Form_Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 129);
+            this.ClientSize = new System.Drawing.Size(304, 97);
             this.Controls.Add(this.inputAge);
             this.Controls.Add(this.HowOld_label);
             this.Controls.Add(this.OK_button);
-            this.Name = "_5_2_Form";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "Form_Main";
             this.Text = "5-2";
             this.ResumeLayout(false);
             this.PerformLayout();

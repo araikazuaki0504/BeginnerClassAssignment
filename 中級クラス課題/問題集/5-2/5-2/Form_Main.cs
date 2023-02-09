@@ -10,15 +10,9 @@ using System.Windows.Forms;
 
 namespace _5_2
 {
-<<<<<<< HEAD:中級クラス課題/問題集/5-2/5-2/Form_Main.cs
     public partial class Form_Main : Form
     {
         public Form_Main()
-=======
-    public partial class _5_2_Form : Form
-    {
-        public _5_2_Form()
->>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60:中級クラス課題/問題集/5-2/5-2/Form1.cs
         {
             InitializeComponent();
         }
@@ -48,6 +42,6 @@ namespace _5_2
                 this.inputAge.Text = "";
             }
         }
-        
+
     }
 }

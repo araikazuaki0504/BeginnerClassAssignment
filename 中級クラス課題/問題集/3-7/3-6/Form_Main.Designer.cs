@@ -1,11 +1,7 @@
 ﻿
 namespace _3_6
 {
-<<<<<<< HEAD:中級クラス課題/問題集/3-7/3-6/Form_Main.Designer.cs
     partial class Form_Main
-=======
-    partial class _3_7_Form
->>>>>>> 751d62ba30b5294fdd3226aa1f3235c86459eb60:中級クラス課題/問題集/3-7/3-6/Form1.Designer.cs
     {
         /// <summary>
         ///  Required designer variable.
