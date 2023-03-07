@@ -19,16 +19,6 @@ namespace _2_11b
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.LapTime_listBox.Items.Add(timer.ToString("mm:ss"));
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.timer1.Enabled = true;
-            this.Lap_button.Enabled = true;
-        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -37,12 +27,23 @@ namespace _2_11b
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void StartButton(object sender, EventArgs e)
+        {
+            this.timer1.Enabled = true;
+            this.Lap_button.Enabled = true;
+        }
+
+        private void Stop_Button(object sender, EventArgs e)
         {
             this.timer1.Enabled = false;
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Lap_Button(object sender, EventArgs e)
+        {
+            this.LapTime_listBox.Items.Add(timer.ToString("mm:ss"));
+        }
+
+        private void ResetButton(object sender, EventArgs e)
         {
             this.timer1.Enabled = false;
             this.Time_label.Text = "00:00";

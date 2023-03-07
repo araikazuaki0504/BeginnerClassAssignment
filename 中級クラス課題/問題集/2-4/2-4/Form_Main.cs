@@ -36,7 +36,8 @@ namespace _2_4
         private void button1_Click(object sender, EventArgs e)
         {
             Random Rand = new Random();
-            int index = Rand.Next(12);
+            int Len_sarcedLot = sarcedLot.Count;
+            int index = Rand.Next(Len_sarcedLot);
 
             MessageBox.Show(this.Name_textBox.Text + "さんの今日の運勢は..." + Environment.NewLine + sarcedLot[index]);
         }

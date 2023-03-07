@@ -62,7 +62,7 @@ namespace _2_11b
             this.Start_button.TabIndex = 1;
             this.Start_button.Text = "Start";
             this.Start_button.UseVisualStyleBackColor = true;
-            this.Start_button.Click += new System.EventHandler(this.button1_Click);
+            this.Start_button.Click += new System.EventHandler(this.StartButton);
             // 
             // Stop_button
             // 
@@ -72,7 +72,7 @@ namespace _2_11b
             this.Stop_button.TabIndex = 2;
             this.Stop_button.Text = "Stop";
             this.Stop_button.UseVisualStyleBackColor = true;
-            this.Stop_button.Click += new System.EventHandler(this.button2_Click);
+            this.Stop_button.Click += new System.EventHandler(this.Stop_Button);
             // 
             // Lap_button
             // 
@@ -83,7 +83,7 @@ namespace _2_11b
             this.Lap_button.TabIndex = 3;
             this.Lap_button.Text = "Lap";
             this.Lap_button.UseVisualStyleBackColor = true;
-            this.Lap_button.Click += new System.EventHandler(this.button3_Click);
+            this.Lap_button.Click += new System.EventHandler(this.Lap_Button);
             // 
             // Reset_button
             // 
@@ -93,7 +93,7 @@ namespace _2_11b
             this.Reset_button.TabIndex = 4;
             this.Reset_button.Text = "Reset";
             this.Reset_button.UseVisualStyleBackColor = true;
-            this.Reset_button.Click += new System.EventHandler(this.button4_Click);
+            this.Reset_button.Click += new System.EventHandler(this.ResetButton);
             // 
             // LapTime_listBox
             // 
@@ -104,7 +104,7 @@ namespace _2_11b
             this.LapTime_listBox.Size = new System.Drawing.Size(178, 109);
             this.LapTime_listBox.TabIndex = 5;
             // 
-            // _2_11b_Form
+            // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,8 +115,8 @@ namespace _2_11b
             this.Controls.Add(this.Stop_button);
             this.Controls.Add(this.Start_button);
             this.Controls.Add(this.Time_label);
-            this.Name = "_2_11b_Form";
-            this.Text = "Form1";
+            this.Name = "Form_Main";
+            this.Text = "Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 

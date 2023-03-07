@@ -17,7 +17,7 @@ namespace _2_4
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new _3_6_Form());
+            Application.Run(new Form_Main());
         }
     }
 }
