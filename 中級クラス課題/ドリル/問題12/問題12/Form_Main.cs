@@ -9,8 +9,8 @@ namespace 問題12
 
         private void CalButton_Click(object sender, EventArgs e)
         {
-            int ansCalculate = 200 / 10;
-            MessageBox.Show(ansCalculate.ToString());
+            int AnsCalculate = 200 / 10;
+            MessageBox.Show(AnsCalculate.ToString());
         }
     }
 }

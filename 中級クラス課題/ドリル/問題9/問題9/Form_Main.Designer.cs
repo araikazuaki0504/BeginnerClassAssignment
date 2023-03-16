@@ -1,6 +1,6 @@
-﻿namespace 問題5
+﻿namespace 問題9
 {
-    partial class Form1
+    partial class Form_Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,32 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DisplayButton = new Button();
+            CalButton = new Button();
             SuspendLayout();
             // 
-            // DisplayButton
+            // CalButton
             // 
-            DisplayButton.Location = new Point(61, 76);
-            DisplayButton.Name = "DisplayButton";
-            DisplayButton.Size = new Size(75, 23);
-            DisplayButton.TabIndex = 0;
-            DisplayButton.Text = "表示";
-            DisplayButton.UseVisualStyleBackColor = true;
-            DisplayButton.Click += DisplayButton_Click;
+            CalButton.Location = new Point(144, 105);
+            CalButton.Name = "CalButton";
+            CalButton.Size = new Size(75, 23);
+            CalButton.TabIndex = 0;
+            CalButton.Text = "計算";
+            CalButton.UseVisualStyleBackColor = true;
+            CalButton.Click += CalButton_Click;
             // 
-            // Form1
+            // Form_Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(200, 175);
-            Controls.Add(DisplayButton);
-            Name = "Form";
-            Text = "Form";
+            ClientSize = new Size(373, 241);
+            Controls.Add(CalButton);
+            Name = "Form_Main";
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button DisplayButton;
+        private Button CalButton;
     }
 }

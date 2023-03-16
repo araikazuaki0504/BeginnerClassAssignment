@@ -1,16 +1,16 @@
 namespace 問題9
 {
-    public partial class Form1 : Form
+    public partial class Form_Main : Form
     {
-        public Form1()
+        public Form_Main()
         {
             InitializeComponent();
         }
 
         private void CalButton_Click(object sender, EventArgs e)
         {
-            int Anscalculate = 1980 + 2000; 
-            MessageBox.Show(Anscalculate.ToString());
+            int AnsCalculate = 1980 + 2000;
+            MessageBox.Show(AnsCalculate.ToString());
         }
     }
 }

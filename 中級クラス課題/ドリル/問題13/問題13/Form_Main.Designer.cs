@@ -1,6 +1,6 @@
 ﻿namespace 問題13
 {
-    partial class Form
+    partial class Form_Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -97,7 +97,7 @@
             Controls.Add(labelPlus);
             Controls.Add(textBoxSecond);
             Controls.Add(textBoxFirst);
-            Name = "Form";
+            Name = "";
             ResumeLayout(false);
             PerformLayout();
         }

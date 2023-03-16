@@ -1,8 +1,8 @@
-namespace 問題14
+namespace 問題13
 {
-    public partial class Form : System.Windows.Forms.Form
+    public partial class Form_Main : System.Windows.Forms.Form
     {
-        public Form()
+        public Form_Main()
         {
             InitializeComponent();
         }
