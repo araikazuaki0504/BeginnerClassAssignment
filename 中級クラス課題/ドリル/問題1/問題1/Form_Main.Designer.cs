@@ -47,10 +47,8 @@
             HelloLabel.AutoSize = true;
             HelloLabel.Location = new Point(39, 53);
             HelloLabel.Name = "HelloLabel";
-            HelloLabel.Size = new Size(38, 15);
+            HelloLabel.Size = new Size(0, 15);
             HelloLabel.TabIndex = 1;
-            HelloLabel.Text = "Hello!";
-            HelloLabel.Visible = false;
             // 
             // Form_Main
             // 
@@ -60,7 +58,6 @@
             Controls.Add(HelloLabel);
             Controls.Add(ClickButton);
             Name = "Form_Main";
-            Text = "Form_Main";
             ResumeLayout(false);
             PerformLayout();
         }

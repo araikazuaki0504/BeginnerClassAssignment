@@ -9,7 +9,7 @@ namespace 問題1
 
         private void Click_Button(object sender, EventArgs e)
         {
-            this.HelloLabel.Visible = true;
+            this.HelloLabel.Text = "Hello!";
         }
     }
 }
