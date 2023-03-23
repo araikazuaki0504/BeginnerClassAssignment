@@ -1,6 +1,6 @@
 ﻿namespace 問題7
 {
-    partial class Form1
+    partial class Form_Main
     {
         /// <summary>
         ///  Required designer variable.
