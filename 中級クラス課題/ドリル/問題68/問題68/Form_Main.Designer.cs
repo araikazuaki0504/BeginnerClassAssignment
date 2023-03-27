@@ -48,7 +48,6 @@
             ClientSize = new Size(149, 91);
             Controls.Add(button);
             Name = "Fomr_Main";
-            Text = "問題68";
             ResumeLayout(false);
         }
 

@@ -70,7 +70,6 @@
             Controls.Add(YButton);
             Controls.Add(XButton);
             Name = "Form_Main";
-            Text = "問題2";
             ResumeLayout(false);
             PerformLayout();
         }

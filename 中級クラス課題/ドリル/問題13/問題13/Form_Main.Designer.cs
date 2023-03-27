@@ -98,7 +98,6 @@
             Controls.Add(textBoxSecond);
             Controls.Add(textBoxFirst);
             Name = "Form_Main";
-            Text = "問題13";
             ResumeLayout(false);
             PerformLayout();
         }

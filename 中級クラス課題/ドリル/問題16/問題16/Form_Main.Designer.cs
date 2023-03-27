@@ -114,7 +114,6 @@
             Controls.Add(labelMean);
             Controls.Add(buttonMean);
             Name = "Form_Main";
-            Text = "問題16";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -88,7 +88,6 @@
             Controls.Add(LabelA);
             Controls.Add(ExchangeButton);
             Name = "Form_Main";
-            Text = "問題8";
             ResumeLayout(false);
             PerformLayout();
         }

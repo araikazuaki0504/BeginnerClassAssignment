@@ -48,7 +48,6 @@
             ClientSize = new Size(373, 241);
             Controls.Add(CalButton);
             Name = "Form_Main";
-            Text = "問題9";
             ResumeLayout(false);
         }
 

@@ -76,7 +76,6 @@
             Controls.Add(textBoxFirst);
             Controls.Add(buttonCompare);
             Name = "Form_Main";
-            Text = "問題18";
             ResumeLayout(false);
             PerformLayout();
         }

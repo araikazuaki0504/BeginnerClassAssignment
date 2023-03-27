@@ -88,7 +88,6 @@ namespace 問題44
             this.Controls.Add(this.comboBox_City);
             this.Controls.Add(this.ToRightArrow);
             this.Name = "Form_Main";
-            this.Text = "問題44";
             this.ResumeLayout(false);
 
         }

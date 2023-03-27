@@ -69,7 +69,6 @@ namespace 問題42
             this.Controls.Add(this.textBoxToAdd);
             this.Controls.Add(this.buttonToAdd);
             this.Name = "Form_Main";
-            this.Text = "問題42";
             this.ResumeLayout(false);
             this.PerformLayout();
 

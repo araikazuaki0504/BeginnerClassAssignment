@@ -71,7 +71,6 @@
             Controls.Add(button_RightArrow);
             Controls.Add(button_LeftArrow);
             Name = "Form_Main";
-            Text = "問題79";
             ResumeLayout(false);
             PerformLayout();
         }

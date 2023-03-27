@@ -88,7 +88,6 @@
             Controls.Add(maleLabel);
             Controls.Add(DisplayButton);
             Name = "Form_Main";
-            Text = "問題28";
             ResumeLayout(false);
             PerformLayout();
         }

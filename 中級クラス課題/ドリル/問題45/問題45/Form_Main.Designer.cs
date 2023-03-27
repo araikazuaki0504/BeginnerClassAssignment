@@ -60,7 +60,6 @@ namespace 問題45
             this.Controls.Add(this.MovingLabel);
             this.Controls.Add(this.buttonToMove);
             this.Name = "Form_Main";
-            this.Text = "問題45";
             this.ResumeLayout(false);
             this.PerformLayout();
 

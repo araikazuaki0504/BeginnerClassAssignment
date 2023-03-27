@@ -60,7 +60,6 @@
             Controls.Add(listBox);
             Controls.Add(WriteButton);
             Name = "Form_Main";
-            Text = "問題63";
             ResumeLayout(false);
         }
 

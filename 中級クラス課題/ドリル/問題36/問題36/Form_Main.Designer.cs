@@ -57,7 +57,6 @@
             Controls.Add(textBox);
             Controls.Add(button);
             Name = "Form_Main";
-            Text = "問題36";
             ResumeLayout(false);
             PerformLayout();
         }

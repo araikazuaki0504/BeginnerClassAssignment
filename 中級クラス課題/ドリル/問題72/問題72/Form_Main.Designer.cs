@@ -68,7 +68,6 @@
             Controls.Add(TextBoxToSumNum);
             Controls.Add(SumButton);
             Name = "Form_Main";
-            Text = "問題72";
             ResumeLayout(false);
             PerformLayout();
         }

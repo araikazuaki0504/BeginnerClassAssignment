@@ -60,7 +60,6 @@
             Controls.Add(WriteButton);
             Controls.Add(listBox);
             Name = "Form_Main";
-            Text = "問題64";
             ResumeLayout(false);
         }
 

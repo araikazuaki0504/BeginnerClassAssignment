@@ -49,7 +49,6 @@ namespace 問題48
             this.ClientSize = new System.Drawing.Size(163, 109);
             this.Controls.Add(this.button);
             this.Name = "Form_Main";
-            this.Text = "問題48";
             this.ResumeLayout(false);
 
         }

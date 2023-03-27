@@ -70,7 +70,6 @@
             Controls.Add(LeftLabel);
             Controls.Add(ExchangeButton);
             Name = "Form_Main";
-            Text = "問題7";
             ResumeLayout(false);
             PerformLayout();
         }
