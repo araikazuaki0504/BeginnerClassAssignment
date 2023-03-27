@@ -47,7 +47,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(291, 182);
             Controls.Add(CalButton);
-            Name = "Form";
+            Name = "Form_Main";
+            Text = "問題12";
             ResumeLayout(false);
         }
 

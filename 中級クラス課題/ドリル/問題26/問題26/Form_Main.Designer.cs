@@ -76,6 +76,7 @@
             Controls.Add(textBoxLeft);
             Controls.Add(buttonLinked);
             Name = "Form_Main";
+            Text = "問題26";
             ResumeLayout(false);
             PerformLayout();
         }

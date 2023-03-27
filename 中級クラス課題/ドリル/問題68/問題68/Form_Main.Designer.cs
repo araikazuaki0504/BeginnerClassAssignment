@@ -1,6 +1,6 @@
 ﻿namespace 問題68
 {
-    partial class Fomr_Main
+    partial class Form_Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -48,6 +48,7 @@
             ClientSize = new Size(149, 91);
             Controls.Add(button);
             Name = "Fomr_Main";
+            Text = "問題68";
             ResumeLayout(false);
         }
 

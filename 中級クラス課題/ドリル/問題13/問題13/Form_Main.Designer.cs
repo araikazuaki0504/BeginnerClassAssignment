@@ -97,7 +97,8 @@
             Controls.Add(labelPlus);
             Controls.Add(textBoxSecond);
             Controls.Add(textBoxFirst);
-            Name = "";
+            Name = "Form_Main";
+            Text = "問題13";
             ResumeLayout(false);
             PerformLayout();
         }

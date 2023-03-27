@@ -82,8 +82,8 @@ namespace 問題37
             this.Controls.Add(this.textBox_Male);
             this.Controls.Add(this.checkBox_Female);
             this.Controls.Add(this.checkBox_Male);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form_Main";
+            this.Text = "問題37";
             this.ResumeLayout(false);
             this.PerformLayout();
 

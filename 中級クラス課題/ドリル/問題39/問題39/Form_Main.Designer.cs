@@ -164,6 +164,7 @@ namespace 問題39
             this.Controls.Add(this.groupBox_destination);
             this.Controls.Add(this.groupBox_ChildOrAdult);
             this.Name = "Form_Main";
+            this.Text = "問題39";
             this.groupBox_ChildOrAdult.ResumeLayout(false);
             this.groupBox_ChildOrAdult.PerformLayout();
             this.groupBox_destination.ResumeLayout(false);

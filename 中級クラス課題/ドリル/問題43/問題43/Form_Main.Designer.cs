@@ -81,6 +81,7 @@ namespace 問題43
             this.Controls.Add(this.listBox_View);
             this.Controls.Add(this.buttonToAdd);
             this.Name = "Form_Main";
+            this.Text = "問題43";
             this.ResumeLayout(false);
             this.PerformLayout();
 

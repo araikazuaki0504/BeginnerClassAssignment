@@ -59,6 +59,7 @@
             Controls.Add(DayOfWeek);
             Controls.Add(button);
             Name = "Form_Main";
+            Text = "問題74";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -61,6 +61,7 @@
             Controls.Add(button);
             Controls.Add(checkBox_AvailableButton);
             Name = "Form_Main";
+            Text = "問題80";
             ResumeLayout(false);
             PerformLayout();
         }

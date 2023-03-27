@@ -11,7 +11,7 @@ namespace 問題68
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Fomr_Main());
+            Application.Run(new Form_Main());
         }
     }
 }

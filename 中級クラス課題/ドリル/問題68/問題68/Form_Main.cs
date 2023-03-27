@@ -2,9 +2,9 @@ using System.Text;
 
 namespace 問題68
 {
-    public partial class Fomr_Main : Form
+    public partial class Form_Main : Form
     {
-        public Fomr_Main()
+        public Form_Main()
         {
             InitializeComponent();
         }

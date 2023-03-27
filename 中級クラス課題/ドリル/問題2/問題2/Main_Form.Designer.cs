@@ -69,7 +69,8 @@
             Controls.Add(ClickButtonNameLabel);
             Controls.Add(YButton);
             Controls.Add(XButton);
-            Name = "Form";
+            Name = "Form_Main";
+            Text = "問題2";
             ResumeLayout(false);
             PerformLayout();
         }

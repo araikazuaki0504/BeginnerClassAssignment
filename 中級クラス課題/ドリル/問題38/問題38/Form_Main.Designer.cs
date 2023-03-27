@@ -86,6 +86,7 @@ namespace 問題38
             this.Controls.Add(this.radioButton_female);
             this.Controls.Add(this.radioButton_Male);
             this.Name = "Form_Main";
+            this.Text = "問題38";
             this.ResumeLayout(false);
             this.PerformLayout();
 

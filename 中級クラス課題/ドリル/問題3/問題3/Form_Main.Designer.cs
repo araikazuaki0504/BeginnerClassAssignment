@@ -67,6 +67,7 @@
             Controls.Add(inputTextLabel);
             Controls.Add(ClickButton);
             Name = "Form_Main";
+            Text = "問題3";
             ResumeLayout(false);
             PerformLayout();
         }

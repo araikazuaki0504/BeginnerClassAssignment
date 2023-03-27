@@ -75,8 +75,8 @@
             Controls.Add(textBoxSecond);
             Controls.Add(textBoxFirst);
             Controls.Add(buttonCompare);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Form_Main";
+            Text = "問題18";
             ResumeLayout(false);
             PerformLayout();
         }

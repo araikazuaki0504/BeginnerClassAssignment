@@ -66,8 +66,8 @@
             Controls.Add(textBoxOutput);
             Controls.Add(textBoxInput);
             Controls.Add(buttonPlusOrMinus);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Form_Main";
+            Text = "問題17";
             ResumeLayout(false);
             PerformLayout();
         }

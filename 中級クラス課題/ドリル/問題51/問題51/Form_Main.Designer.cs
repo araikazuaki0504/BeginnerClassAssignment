@@ -48,6 +48,7 @@
             ClientSize = new Size(166, 106);
             Controls.Add(ReadButton);
             Name = "Form_Main";
+            Text = "問題51";
             ResumeLayout(false);
         }
 

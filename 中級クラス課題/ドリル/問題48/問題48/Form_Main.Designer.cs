@@ -48,8 +48,8 @@ namespace 問題48
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(163, 109);
             this.Controls.Add(this.button);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form_Main";
+            this.Text = "問題48";
             this.ResumeLayout(false);
 
         }

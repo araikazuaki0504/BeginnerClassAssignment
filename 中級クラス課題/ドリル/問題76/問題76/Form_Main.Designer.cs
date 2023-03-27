@@ -59,6 +59,7 @@
             Controls.Add(Label);
             Controls.Add(button);
             Name = "Form_Main";
+            Text = "問題76";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -69,8 +69,8 @@
             Controls.Add(RightLabel);
             Controls.Add(LeftLabel);
             Controls.Add(ExchangeButton);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Form_Main";
+            Text = "問題7";
             ResumeLayout(false);
             PerformLayout();
         }

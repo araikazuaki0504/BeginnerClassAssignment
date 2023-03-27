@@ -93,6 +93,7 @@
             Controls.Add(textBoxFirst);
             Controls.Add(buttonCheck);
             Name = "Form_Main";
+            Text = "問題20";
             ResumeLayout(false);
             PerformLayout();
         }

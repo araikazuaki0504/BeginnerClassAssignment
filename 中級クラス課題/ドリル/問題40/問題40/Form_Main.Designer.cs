@@ -68,6 +68,7 @@ namespace 問題40
             this.Controls.Add(this.textBox_ToAdd);
             this.Controls.Add(this.DisplayComboBox);
             this.Name = "Form_Main";
+            this.Text = "問題40";
             this.ResumeLayout(false);
             this.PerformLayout();
 

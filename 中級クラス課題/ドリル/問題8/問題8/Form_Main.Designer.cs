@@ -1,6 +1,6 @@
 ﻿namespace 問題8
 {
-    partial class Form1
+    partial class Form_Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -87,8 +87,8 @@
             Controls.Add(LabelB);
             Controls.Add(LabelA);
             Controls.Add(ExchangeButton);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Form_Main";
+            Text = "問題8";
             ResumeLayout(false);
             PerformLayout();
         }
