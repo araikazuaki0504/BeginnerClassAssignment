@@ -1,4 +1,4 @@
-namespace 問題17
+namespace 問題16
 {
     internal static class Program
     {
